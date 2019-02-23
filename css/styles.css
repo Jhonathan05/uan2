@@ -17,6 +17,7 @@ a{
 body, html{
     width: 100%;
     height: 100%;
+    background-color: #EDEDED;
     
 }
 ul li{
@@ -25,7 +26,6 @@ ul li{
 
 .container-body{
     position: absolute;
-    /*background-color: aqua;*/
     width: 85%;
     left: 15%;
     height: 91.5%;
@@ -38,10 +38,11 @@ ul li{
 }
 .content-body{
     display: flex;
-    flex-direction: column;
-    background-color: red;
+    justify-content: space-between;
+   /* background-color: rgba(255, 0, 0, 0.09);*/
     margin: 30px;
     z-index: 0;
+    flex-wrap: wrap;
 }
 .input-base{
     border: none;
