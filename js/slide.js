@@ -5,6 +5,7 @@ navBarToogle.addEventListener('click', function(){
     document.getElementById('nav-header').classList.toggle('active');
     document.getElementById('slide-menu').classList.toggle('active');
     document.querySelector('.container-body').classList.toggle('active');
+    document.querySelector('.footer-content').classList.toggle('active');
     
 })
 

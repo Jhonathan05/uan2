@@ -3,7 +3,7 @@
 }
 .card-sala:nth-child(3){
     background-color: #C0392C;
-}
-.card-sala:nth-child(4){
-    background-color: #2A80B9;
 }*/
+.card-sala:nth-child(8){
+    background-color: rgba(38, 38, 38, 0.6);
+}
