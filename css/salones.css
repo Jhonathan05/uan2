@@ -1,0 +1,30 @@
+.content-body {
+    margin: 0;
+    background-color: #FFF;
+}
+
+.content-body iframe {
+    width: 100%;
+    height: 100vh;
+    top: 5px;
+}
+
+.tapar {
+    width: 100%;
+    background-color: #fff;
+    height: 20px;
+    position: absolute;
+}
+
+select {
+    padding: 15px;
+    border-radius: 2px;
+}
+
+.find {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /*background-color: red;*/
+    padding: 15px;
+}

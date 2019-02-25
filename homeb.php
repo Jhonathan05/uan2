@@ -29,7 +29,7 @@
                         <div class="card-element">Tablero: Acr&iacute;lico, Tiza</div>
                     </div>
                     <div class="card-footer">
-                        <div class="card-element enlace"><a href="#">VER HORARIOS</a></div>
+                        <div class="card-element enlace"><a href="b201.php">VER HORARIOS</a></div>
                     </div>
                 </div>
             </div>
