@@ -1,3 +1,6 @@
-.color-a{
-    
+.header-a-bloques{
+    display: flex;
+    margin: 15px;
+    font-size: 12px;
+    justify-content: space-evenly;
 }
