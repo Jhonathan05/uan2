@@ -27,6 +27,12 @@
 
 }
 
+#ul-row li{
+    color: #000;
+}
+#ul-row li i{
+    color: #000;
+}
 #ul-row li:first-child {
     margin-left: 15px;
     cursor: pointer;
