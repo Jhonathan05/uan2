@@ -2,6 +2,9 @@
 const btnCard = document.getElementById('slide-card');
 
 btnCard.addEventListener('click', function(){
+    
+    document.getElementById('ico-desp').classList.toggle('active');
+    
     document.getElementById('card-sala1').classList.toggle('active');
     document.getElementById('slide-card').classList.toggle('active');
     document.getElementById('card-body1').classList.toggle('active');

@@ -61,6 +61,7 @@
     border-bottom-left-radius: 3px;
     border-bottom: .5px solid rgba(0, 0, 0, 0.13);
     border-left: .5px solid rgba(0, 0, 0, 0.13);
+    z-index: 1;
 }
 
 #content-login.active form {

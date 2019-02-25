@@ -19,11 +19,14 @@
 select {
     padding: 15px;
     border-radius: 2px;
+    background-color: #262626;
+    color: #FFF;
+    border: 0;
 }
 
 .find {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     width: 100%;
     /*background-color: red;*/
     padding: 15px;

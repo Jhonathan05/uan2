@@ -7,25 +7,29 @@
         </li>
     </ul>
 </nav>
-<!--<div id="login-header">
+<div id="login-header">
     <div id="content-login" class="">
         <form action="">
             <input type="text" placeholder="Usuario" class="input-base">
             <input type="password" placeholder="Contraseña" class="input-base">
             <button type="submit" class="btn-base">Iniciar Sesi&oacute;n</button>
+            <a href="../homeb.php" class="color-a">Bloque B</a>
+            <a href="../homeb.php" class="color-a">Bloque C</a>
         </form>
     </div>
-</div>-->
+</div>
 
-<div id="login-header">
+<!--<div id="login-header">
     <div id="content-user" class="">
         <form action="">
            <a href="#">Mi Perfil</a>
+           <a href="">Bloque B</a>
+           <a href="">Bloque C</a>
            <button type="submit">Cerrar Sesi&oacute;n</button>
             
         </form>
     </div>
-</div>
+</div>-->
 
 
 <div id="slide-menu">

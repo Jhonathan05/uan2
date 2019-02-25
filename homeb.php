@@ -20,7 +20,13 @@
 
             <div id="card-sala1" class="card-sala "> <!--active--> 
                 <div class="card-content">
-                    <div id="slide-card" class="card-title ">B201</div> <!--active-->
+                    <div id="slide-card" class="card-title ">
+                        B201
+                        <span id="ico-desp" class="cruz ">
+                            <span class="horizontal"></span>
+                            <span class="vertical"></span>
+                        </span>
+                    </div> <!--active-->
                     <div id="card-body1" class="card-body "> <!--active-->
                         <div class="card-element">Capacidad: 00</div>
                         <div class="card-element">Equipos de Computo: 00</div>
