@@ -80,7 +80,7 @@
                     <label for="">Mi estado de solicitud</label>
                     <input type="text" placeholder="Digitar Documento" id="input-dig-doc" class="input-base" required>
                     <button type="submit" class="btn-base">Ver Solicitudes</button>
-                    <a href="#" id="a-solic">¿Nueva Solicitud?</a>
+                    <a href="./add-soli.php" id="a-solic">¿Nueva Solicitud?</a>
                 </form>
             </div>
         </li>
