@@ -36,8 +36,8 @@
 
 <div id="slide-menu">
     <ul>
-        <li><img src="./img/logoBlanco.png" alt="Logo" id="img-logo" class=""></li>
-        <li><i id="logo-university" class="fas fa-university"></i></li>
+        <li><a href="./index.php"><img src="./img/logoBlanco.png" alt="Logo" id="img-logo" class=""></a></li>
+        <li><a href="./index.php"><i id="logo-university" class="fas fa-university"></i></a></li>
         <li>
             <a href="#">
                 <div class="sidebar-elements">
