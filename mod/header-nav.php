@@ -10,8 +10,8 @@
 <div id="login-header">
     <div id="content-login" class="">
         <form action="">
-            <input type="text" placeholder="Usuario" class="input-base">
-            <input type="password" placeholder="Contraseña" class="input-base">
+            <input type="text" placeholder="Usuario" class="input-base" required>
+            <input type="password" placeholder="Contraseña" class="input-base" required>
             <button type="submit" class="btn-base">Iniciar Sesi&oacute;n</button>
             <div class="header-a-bloques">
                 <a href="./homeb.php" class="color-a">Bloque B</a>
@@ -78,7 +78,7 @@
             <div class="sidebar-elements">
                 <form action="">
                     <label for="">Mi estado de solicitud</label>
-                    <input type="text" placeholder="Digitar Documento" id="input-dig-doc" class="input-base">
+                    <input type="text" placeholder="Digitar Documento" id="input-dig-doc" class="input-base" required>
                     <button type="submit" class="btn-base">Ver Solicitudes</button>
                     <a href="#" id="a-solic">¿Nueva Solicitud?</a>
                 </form>
@@ -92,8 +92,9 @@
             </div>
             <div id="soli-out" class="">
                 <form action="">
-                    <input type="text" placeholder="Digitar Documento" class="input-base">
-                    <button type="submit" class="btn-base">Ver Solicitudes</button>
+                    <input type="text" placeholder="Digitar Documento" class="input-base" required>
+                    <button type="submit" class="btn-base" >Ver Solicitudes</button>
+                    <a href="#" id="a-solic-out">¿Nueva Solicitud?</a>
                 </form>
             </div>
         </li>

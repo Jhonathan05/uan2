@@ -263,6 +263,8 @@
 
 #soli-out.active form {
     display: block;
+    text-align-last: center;
+    font-size: 12px;
 }
 
 #soli-out.active {
@@ -282,7 +284,7 @@
 
 #soli-out.active .btn-base {
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 12px;
     margin-top: 15px;
 }
 
