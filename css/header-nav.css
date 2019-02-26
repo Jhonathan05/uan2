@@ -1,6 +1,104 @@
-.header-a-bloques{
+.header-a-bloques {
     display: flex;
     margin: 15px;
     font-size: 12px;
     justify-content: space-evenly;
+}
+
+.soli-out-big {
+    display: none;
+    transition: all 500ms linear;
+}
+.close-ico{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+.soli-out-big input {
+    background-color: rgba(240, 248, 255, 0.25);
+    border: none;
+    padding: 15px; 
+    border-radius: 4px;
+    color: #FFF;
+}
+
+.soli-out-big input[list]::placeholder {
+    color: #FFF;
+}
+
+.soli-out-big.active {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    background-color: #262626;
+    padding: 15px 50px;
+    border-top-right-radius: 5px;
+    z-index: 1;
+    height: 100vh;
+    width: 50vh;
+    border-left: .2px solid rgb(255, 255, 255);
+    padding-left: 50px;
+}
+
+#form-out {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+    border-radius: 3px;
+    height: 100%;
+}
+
+#form-soli-big-body {
+    display: flex;
+    flex-direction: column;
+}
+
+#form-out button {
+    width: 100%;
+}
+
+.form-big-element {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+.request-title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+input::-webkit-calendar-picker-indicator {
+    display: none;
+}
+
+.form-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.form-subtitle {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.info-solicitante {
+    margin-bottom: 10%;
+
+}
+
+.label-element {
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+a{
+   
 }

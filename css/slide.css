@@ -148,6 +148,9 @@
 #slide-menu ul li:last-child {
     display: none;
 }
+#slide-menu.active ul li:last-child {
+    display: block;
+}
 
 #slide-menu ul li:nth-child(7) {
     /*background-color: red;*/

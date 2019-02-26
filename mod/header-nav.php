@@ -66,10 +66,10 @@
         </li>
 
         <li>
-            <a href="">
+            <a href="mailto:jacireno@hotmail.com">
                 <div class="sidebar-elements">
-                    <i class="fas fa-minus-circle"></i>
-                    <span>Cerrar Sesi&oacute;n</span>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <span>Mejorar App</span>
                 </div>
             </a>
         </li>
@@ -80,7 +80,123 @@
                     <label for="">Mi estado de solicitud</label>
                     <input type="text" placeholder="Digitar Documento" id="input-dig-doc" class="input-base" required>
                     <button type="submit" class="btn-base">Ver Solicitudes</button>
-                    <a href="./add-soli.php" id="a-solic">¿Nueva Solicitud?</a>
+                    <a id="a-solic">¿Nueva Solicitud?</a>
+                </form>
+            </div>
+
+        </li>
+        <li>
+            <div id="soli-out-big" class="soli-out-big ">
+                <div id="close" class="close-ico">&#10006;</div>
+                <form action="" id="form-out">
+
+                    <div class="form-title">Formulario de solicitud:</div>
+
+                    <div id="form-soli-big-body">
+
+                        <div class="form-subtitle">Informaci&oacute;n del Solicitante:</div>
+
+                        <div class="info-solicitante">
+                            <div class="form-big-element">
+                                <span class="label-element">Documento del Solicitante</span>
+                                <input list="l-id-stu" placeholder="Documento Solicitante" spellcheck="false" autocomplete="off" required>
+                                <datalist id="l-id-stu">
+                                    <option value="1110541614">Jhonathan Camargo</option>
+                                    <option value="1110533214">Diego Nieto</option>
+                                </datalist>
+                            </div>
+                            <div class="form-big-element">
+                                <label for="" class="label-element">Nombre del Solicitante</label>
+                                <input type="text" placeholder="Nombre" disabled required>
+                            </div>
+                            <div class="form-big-element">
+                                <label for="" class="label-element">Apellido Del solicitante</label>
+                                <input type="text" placeholder="Apellido" disabled required>
+                            </div>
+
+                        </div>
+
+                        <div class="form-subtitle">Informaci&oacute;n del Aula:</div>
+
+                        <div class="info-sala">
+                            <div class="form-big-element">
+                                <label for="" class="label-element">Sala a solicitar</label>
+                                <input list="l-room" placeholder="Sala" required>
+                                <datalist id="l-room">
+                                    <option value="Room 1"></option>
+                                    <option value="Room 2"></option>
+                                </datalist>
+                            </div>
+
+                            <div class="form-big-element">
+
+                                <div class="label-element">Docente</div>
+
+                                <input list="l-doc" placeholder="Docente" required>
+                                <datalist id="l-doc">
+                                    <option value="Docente 1"></option>
+                                    <option value="Docente 2"></option>
+                                </datalist>
+                            </div>
+
+                            <div class="form-big-element">
+                                <div class="label-element">Dia del m&eacute;s a apartar sala:</div>
+                                <input list="l-day" placeholder="D&iacute;a" required>
+                                <datalist id="l-day">
+                                    <option value="01">Viernes</option>
+                                    <option value="02">Sabado</option>
+                                    <option value="03">Domingo</option>
+                                    <option value="04">Lunes</option>
+                                </datalist>
+                            </div>
+
+                            <div class="form-big-element">
+                                <div class="label-element">Hora de incio:</div>
+                                <input list="l-hour-ini" placeholder="Inicio" required>
+                                <datalist id="l-hour-ini">
+                                    <option value="08:00"></option>
+                                    <option value="09:00"></option>
+                                    <option value="10:00"></option>
+                                    <option value="11:00"></option>
+                                    <option value="12:00"></option>
+                                    <option value="14:00"></option>
+                                    <option value="15:00"></option>
+                                    <option value="16:00"></option>
+                                    <option value="17:00"></option>
+                                    <option value="18:00"></option>
+                                    <option value="19:00"></option>
+                                    <option value="20:00"></option>
+                                    <option value="21:00"></option>
+                                    <option value="22:00"></option>
+                                </datalist>
+                            </div>
+
+                            <div class="form-big-element">
+                                <div class="label-element">Hora de fin:</div>
+                                <input list="l-hour-end" placeholder="Fin" required>
+                                <datalist id="l-hour-end">
+                                    <option value="08:00"></option>
+                                    <option value="09:00"></option>
+                                    <option value="10:00"></option>
+                                    <option value="11:00"></option>
+                                    <option value="12:00"></option>
+                                    <option value="14:00"></option>
+                                    <option value="15:00"></option>
+                                    <option value="16:00"></option>
+                                    <option value="17:00"></option>
+                                    <option value="18:00"></option>
+                                    <option value="19:00"></option>
+                                    <option value="20:00"></option>
+                                    <option value="21:00"></option>
+                                    <option value="22:00"></option>
+                                </datalist>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-base btn-pric">Reservar</button>
+
                 </form>
             </div>
         </li>
@@ -93,10 +209,11 @@
             <div id="soli-out" class="">
                 <form action="">
                     <input type="text" placeholder="Digitar Documento" class="input-base" required>
-                    <button type="submit" class="btn-base" >Ver Solicitudes</button>
-                    <a href="#" id="a-solic-out">¿Nueva Solicitud?</a>
+                    <button type="submit" class="btn-base">Ver Solicitudes</button>
+                    <a id="a-solic-out">¿Nueva Solicitud?</a>
                 </form>
             </div>
+
         </li>
     </ul>
 </div>
