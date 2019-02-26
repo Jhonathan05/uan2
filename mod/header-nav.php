@@ -1,7 +1,7 @@
 <nav id="nav-header" class="">
     <ul id="ul-row">
         <li id="toggle-btn">&#9776;</li>
-        <li>Inicio</li>
+        <li>Ibagu&eacute;</li>
         <li>
             <i id="user-ico" class="fas fa-user-circle"></i>
         </li>
@@ -39,7 +39,7 @@
         <li><a href="./index.php"><img src="./img/logoBlanco.png" alt="Logo" id="img-logo" class=""></a></li>
         <li><a href="./index.php"><i id="logo-university" class="fas fa-university"></i></a></li>
         <li>
-            <a href="#">
+            <a href="./listams.php">
                 <div class="sidebar-elements">
                     <i class="fas fa-exclamation-circle"></i>
                     <span>Pendientes</span>
@@ -48,7 +48,7 @@
         </li>
 
         <li>
-            <a href="">
+            <a href="./listamc.php">
                 <div class="sidebar-elements">
                     <i class="fas fa-check-circle"></i>
                     <span>Confirmados</span>
@@ -57,7 +57,7 @@
         </li>
 
         <li>
-            <a href="">
+            <a href="./listamcs.php">
                 <div class="sidebar-elements">
                     <i class="fas fa-times-circle"></i>
                     <span>Cancelados</span>

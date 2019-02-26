@@ -1,0 +1,6 @@
+tr td:nth-child(2), tr td:nth-child(4){
+    color: #262626;
+}
+.footer-container {
+    margin-top: 23.52vh;
+}

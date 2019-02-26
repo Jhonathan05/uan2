@@ -5,6 +5,7 @@
     <?php
         include_once('./mod/head.php');
     ?>
+    <link rel="stylesheet" href="css/homeb.css">
     <title> Bloque B </title>
 </head>
 

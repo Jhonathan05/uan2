@@ -5,7 +5,8 @@
     <?php
         include_once('./mod/head.php');
     ?>
-    <title> UAN 2.0 </title>
+    <link rel="stylesheet" href="css/salones.css">
+    <title> Bloque B </title>
 </head>
 
 <body>
@@ -13,7 +14,7 @@
         <?php
             require_once ('./mod/header-nav.php');
         ?>
-        <link rel="stylesheet" href="css/salones.css">
+        
     </header>
 
     <section class="container-body ">

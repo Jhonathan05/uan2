@@ -1,0 +1,9 @@
+tr td:nth-child(2), tr td:nth-child(3), tr td:nth-child(8){
+    color: #262626;
+}
+.asig{
+    color: green;
+}
+.footer-container {
+    margin-top: 23.52vh;
+}
