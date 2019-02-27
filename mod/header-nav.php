@@ -90,11 +90,11 @@
                 <div id="close" class="close-ico">&#10006;</div>
                 <form action="" id="form-out">
 
-                    <div class="form-title">Formulario de solicitud:</div>
+                    <div class="form-title">Formulario de Solicitud</div>
 
                     <div id="form-soli-big-body">
 
-                        <div class="form-subtitle">Informaci&oacute;n del Solicitante:</div>
+                        <div class="form-subtitle">Informaci&oacute;n del Solicitante</div>
 
                         <div class="info-solicitante">
                             <div class="form-big-element">
@@ -116,7 +116,7 @@
 
                         </div>
 
-                        <div class="form-subtitle">Informaci&oacute;n del Aula:</div>
+                        <div class="form-subtitle">Informaci&oacute;n del Aula</div>
 
                         <div class="info-sala">
                             <div class="form-big-element">
@@ -140,7 +140,7 @@
                             </div>
 
                             <div class="form-big-element">
-                                <div class="label-element">Dia del m&eacute;s a apartar sala:</div>
+                                <div class="label-element">Dia del m&eacute;s a apartar sala</div>
                                 <input list="l-day" placeholder="D&iacute;a" required>
                                 <datalist id="l-day">
                                     <option value="01">Viernes</option>
@@ -151,7 +151,7 @@
                             </div>
 
                             <div class="form-big-element">
-                                <div class="label-element">Hora de incio:</div>
+                                <div class="label-element">Hora de incio</div>
                                 <input list="l-hour-ini" placeholder="Inicio" required>
                                 <datalist id="l-hour-ini">
                                     <option value="08:00"></option>
@@ -172,7 +172,7 @@
                             </div>
 
                             <div class="form-big-element">
-                                <div class="label-element">Hora de fin:</div>
+                                <div class="label-element">Hora de fin</div>
                                 <input list="l-hour-end" placeholder="Fin" required>
                                 <datalist id="l-hour-end">
                                     <option value="08:00"></option>

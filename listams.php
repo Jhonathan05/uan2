@@ -42,7 +42,7 @@
                             <td>29/FEB</td>
                             <td>14:00 - 16:00</td>
                             <td>
-                                <button class="btn-base btn-pric">Opciones</button>
+                                <button class="btn-base btn-pric" role="link" onclick="window.location='formAux.php'">Opciones</button>
                             </td>
                         </tr>
                         <tr>
@@ -53,7 +53,7 @@
                             <td>29/FEB</td>
                             <td>14:00 - 16:00</td>
                             <td>
-                                <button class="btn-base btn-pric">Opciones</button>
+                                <button class="btn-base btn-pric" role="link" onclick="window.location='formAux.php'">Opciones</button>
                             </td>
                         </tr>
                         <tr>
@@ -64,7 +64,7 @@
                             <td>29/FEB</td>
                             <td>14:00 - 16:00</td>
                             <td>
-                                <button class="btn-base btn-pric">Opciones</button>
+                                <button class="btn-base btn-pric" role="link" onclick="window.location='formAux.php'">Opciones</button>
                             </td>
                         </tr>
                         <tr>
@@ -75,7 +75,7 @@
                             <td>29/FEB</td>
                             <td>14:00 - 16:00</td>
                             <td>
-                                <button class="btn-base btn-pric">Opciones</button>
+                                <button class="btn-base btn-pric" role="link" onclick="window.location='formAux.php'">Opciones</button>
                             </td>
                         </tr>
                         <tr>
@@ -86,7 +86,7 @@
                             <td>29/FEB</td>
                             <td>14:00 - 16:00</td>
                             <td>
-                                <button class="btn-base btn-pric">Opciones</button>
+                                <button class="btn-base btn-pric" role="link" onclick="window.location='formAux.php'">Opciones</button>
                             </td>
                         </tr>
                         <tr>
@@ -97,7 +97,7 @@
                             <td>29/FEB</td>
                             <td>14:00 - 16:00</td>
                             <td>
-                                <button class="btn-base btn-pric">Opciones</button>
+                                <button class="btn-base btn-pric" role="link" onclick="window.location='formAux.php'">Opciones</button>
                             </td>
                         </tr>
                         <tr>
@@ -108,7 +108,7 @@
                             <td>29/FEB</td>
                             <td>14:00 - 16:00</td>
                             <td>
-                                <button class="btn-base btn-pric">Opciones</button>
+                                <button class="btn-base btn-pric" role="link" onclick="window.location='formAux.php'">Opciones</button>
                             </td>
                         </tr>
                         <tr>
@@ -119,7 +119,7 @@
                             <td>29/FEB</td>
                             <td>14:00 - 16:00</td>
                             <td>
-                                <button class="btn-base btn-pric">Opciones</button>
+                                <button class="btn-base btn-pric" role="link" onclick="window.location='formAux.php'">Opciones</button>
                             </td>
                         </tr>
                     </tbody>

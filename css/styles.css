@@ -70,6 +70,7 @@ ul li {
 
 }
 
+input[type=number]::placeholder,
 input[type=text]::placeholder,
 input[type=password]::placeholder,
 input[list]::placeholder {
@@ -80,6 +81,7 @@ input[list]::placeholder {
 
 input[list]::placeholder {
     margin-left: 15px;
+    color: #FFF;
 }
 
 .btn-base {

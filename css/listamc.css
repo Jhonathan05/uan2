@@ -7,3 +7,62 @@ tr td:nth-child(2), tr td:nth-child(3), tr td:nth-child(8){
 .footer-container {
     margin-top: 23.52vh;
 }
+
+.form-aux{
+    display: none;
+}
+.form-aux.active {
+    /*display: block;
+    position: fixed;
+    width: 50vh;
+    height: 100%;
+    background-color: red;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    padding: 15px;*/
+    display: block;
+    position: absolute;
+    top: -9.5%;
+    left: 0;
+    background-color: #262626;
+    padding: 15px 50px;
+    border-top-right-radius: 5px;
+    z-index: 1;
+    height: 100vh;
+    width: 50vh;
+    border-left: .2px solid rgb(255, 255, 255);
+    padding-left: 50px;
+}
+
+.form-aux input{
+    background-color: rgba(240, 248, 255, 0.25);
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    color: #FFF;
+}
+.form-aux form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+    border-radius: 3px;
+    height: 100%;
+}
+.aux-body{
+    display: flex;
+    flex-direction: column;
+}
+.aux-element{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3px;
+}
+.aux-element label{
+        font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
