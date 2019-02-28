@@ -2,9 +2,10 @@
     margin-top: 23.52vh;
 }
 
-.form-aux{
+.form-aux {
     display: none;
 }
+
 .form-aux.active {
     display: block;
     position: fixed;
@@ -20,16 +21,18 @@
     padding-left: 50px;
 }
 
-.form-aux input{
+.form-aux input {
     background-color: rgba(240, 248, 255, 0.25);
     border: none;
     padding: 15px;
     border-radius: 4px;
     color: #FFF;
 }
-.form-aux input::placeholder{
+
+.form-aux input::placeholder {
     color: #FFF;
 }
+
 .form-aux form {
     display: flex;
     flex-direction: column;
@@ -38,19 +41,31 @@
     border-radius: 3px;
     height: 100%;
 }
-.aux-body{
+
+.aux-body {
     display: flex;
     flex-direction: column;
 }
-.aux-element{
+
+.aux-element {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-bottom: 3px;
 }
-.aux-element label{
-        font-size: 13px;
+
+.aux-element label {
+    font-size: 13px;
     font-weight: 500;
     display: flex;
     align-items: center;
+}
+
+@media(max-width:720px) {
+    .form-aux.active {
+        left: 0;
+        width: 76.5%;
+        border-left: 0;
+    }
+
 }

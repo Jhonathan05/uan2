@@ -22,8 +22,8 @@
     display: none;
 }
 
-*:focus{
-    outline:0;
+*:focus {
+    outline: 0;
 }
 
 a {
@@ -58,7 +58,7 @@ ul li {
 }
 
 .content-body {
-   /* display: flex;
+    /* display: flex;
     justify-content: space-evenly;*/
     /* background-color: rgba(255, 0, 0, 0.09);*/
     margin: 30px;
@@ -73,9 +73,11 @@ ul li {
 
 
 }
-input['disabled']::placeholder{
+
+input['disabled']::placeholder {
     color: red;
 }
+
 input[type=number]::placeholder,
 input[type=text]::placeholder,
 input[type=password]::placeholder,
@@ -111,4 +113,15 @@ input[list]::placeholder {
 
 .txt-justify {
     text-align: justify;
+}
+
+@media(max-width:720px) {
+    .container-body {
+        width: 100%;
+        left: 0;
+    }
+    .container-body.active{
+        left: 0;
+        width: 100%;
+    }
 }

@@ -24,10 +24,10 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>ID</th>
+                            <th class="none">ID</th>
                             <th>Nombre Solicitante</th>
                             <th>Sala Solicitada</th>
-                            <th>Docente</th>
+                            <th class="none">Docente</th>
                             <th>D&iacute;a Solicitado</th>
                             <th>Horario</th>
                             <th>Opci&oacute;n</th>
@@ -40,10 +40,10 @@
                             {
                                 echo('
                                         <tr>
-                                            <td>1</td>
+                                            <td class="none">1</td>
                                             <td>Jhonathan Camargo</td>
                                             <td><span class="b">B201</span></td>
-                                            <td>Tortugu&iacute;n</td>
+                                            <td class="none">Tortugu&iacute;n</td>
                                             <td>29/FEB</td>
                                             <td>14:00 - 16:00</td>
                                             <td>

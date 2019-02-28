@@ -29,8 +29,8 @@
     -moz-box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.4);
     -webkit-box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.4);
     box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.4);
-    
-    
+
+
 }
 
 .card-content {
@@ -38,7 +38,7 @@
     padding: 15px;
     border-radius: 5px;
     background-color: rgba(38, 38, 38, 0.14);
-    
+
 }
 
 .card-title,
@@ -62,7 +62,7 @@
 
 .card-body {
     display: none;
-    
+
 }
 
 .card-body.active {
@@ -126,10 +126,11 @@
     background-color: rgba(255, 255, 255, 0.46);
 }
 
-.cruz.active{
+.cruz.active {
     transform: rotate(180deg);
     transition: all 500ms linear;
 }
+
 .cruz.active .vertical {
     /*display: none;*/
     transform: scale(0);
@@ -140,3 +141,37 @@
     width: 8px;
 }
 
+@media(max-width:720px) {
+    .card-sala {
+        min-width: 170px;
+    }
+    .card-title {
+        font-size: 15px;
+    }
+    .card-element {
+        font-size: 10px;
+    }
+    .enlace {
+        font-size: 13px;
+    }
+    .card-sala.active {
+        min-width: 170px;
+        max-width: 170px;
+        min-height: 315px;
+        max-height: 315px;
+    }
+    .card-body.active {
+        height: 150px;
+        margin: 20px 0 15px 0;
+    }
+    .cruz{
+        margin-top: -3px;
+    }
+    .horizontal{
+        margin-top: 8.5px;
+    }
+    .vertical{
+        margin-left: 4px;
+    }
+
+}

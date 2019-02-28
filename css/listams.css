@@ -53,8 +53,29 @@ tr td:nth-child(2), tr td:nth-child(4){
     margin-bottom: 3px;
 }
 .aux-element label{
-        font-size: 13px;
+    font-size: 13px;
     font-weight: 500;
     display: flex;
     align-items: center;
+}
+
+@media(max-width:720px) {
+    .content-body {
+        margin: 0;
+    }
+
+    .table-title {
+        font-size: 15px;
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+    th{
+        font-size: 13px;
+    }
+    .form-aux.active{
+        left: 0;
+        width: 76.5%;
+        border-left: 0;
+    }
+
 }

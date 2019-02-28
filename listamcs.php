@@ -24,13 +24,13 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>ID</th>
+                            <th class="none">ID</th>
                             <th>Nombre Solicitante</th>
-                            <th>Docente</th>
+                            <th class="none">Docente</th>
                             <th>D&iacute;a Solicitado</th>
                             <th>Horario</th>
                             <th>Sala Solicitada</th>
-                            <th>Monitor</th>
+                            <th class="none">Monitor</th>
                             <th>Opci&oacute;n</th>
                         </tr>
                     </thead>
@@ -43,13 +43,13 @@
                             {
                                 echo ('
                                         <tr>
-                                            <td>1</td>
+                                            <td class="none">1</td>
                                             <td>Jhonathan Camargo</td>
-                                            <td>Tortugu&iacute;n</td>
+                                            <td class="none">Tortugu&iacute;n</td>
                                             <td>29/FEB</td>
                                             <td>14:00 - 16:00</td>
                                             <td><span class="b">B201</span></td>                            
-                                            <td>Jhonathan Camargo</td>
+                                            <td class="none">Jhonathan Camargo</td>
                                             <td>
                                                 <button id="btn-aux-mcs-'.$i.'" class="btn-base btn-pric">Detalle</button>
                                             </td>
@@ -119,16 +119,7 @@
 
                         <div class="aux-element">
                             <label for="">Motivo de cancelaci&oacute;n</label>
-                            <input list="l-cancel-opt" placeholder="Motivo" required>
-                            <datalist id="l-cancel-opt">
-                                <option value="Fecha erronea"></option>
-                                <option value="Evento UAN"></option>
-                                <option value="Solicitud duplicada"></option>
-                                <option value="Cancelaci&oacute;n de clase"></option>
-                                <option value="Salas no disponibles"></option>
-                                <option value="M&aacute;s de 8 d&iacute;as"></option>
-                                <option value="Solicitud menor a 1 d&iacute;a"></option>
-                            </datalist>
+                            <input type="text" placeholder="Motivo" disabled>
                         </div>
 
                     </div>

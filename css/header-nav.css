@@ -98,3 +98,10 @@ input::-webkit-calendar-picker-indicator {
     display: flex;
     align-items: center;
 }
+
+@media(max-width:720px) {
+    .soli-out-big.active{
+        left: 0;
+        width: 420%;
+    }
+}

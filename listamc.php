@@ -24,14 +24,14 @@
                 <table>
                     <thead>
                         <tr>
-                            <th>ID</th>
+                            <th class="none">ID</th>
                             <th>Nombre Solicitante</th>
-                            <th>Docente</th>
+                            <th class="none">Docente</th>
                             <th>D&iacute;a Solicitado</th>
                             <th>Horario</th>
-                            <th>Sala Solicitada</th>
+                            <th class="none">Sala Solicitada</th>
                             <th>Sala Asignada</th>
-                            <th>Monitor</th>
+                            <th class="none">Monitor</th>
                             <th>Opci&oacute;n</th>
                         </tr>
                     </thead>
@@ -43,14 +43,14 @@
                                 
                                 echo('
                                     <tr>
-                                        <td>1</td>
+                                        <td class="none">1</td>
                                         <td>Jhonathan Camargo</td>
-                                        <td>Tortugu&iacute;n</td>
+                                        <td class="none">Tortugu&iacute;n</td>
                                         <td>29/FEB</td>
                                         <td>14:00 - 16:00</td>
-                                        <td><span class="b">B201</span></td>
+                                        <td class="none"><span class="b">B201</span></td>
                                         <td><span class="c">B203</span></td> <!--la Clase c puede tener uso si es una sala distinta a la que se está solicitando (por ejemplo) -->
-                                        <td>Jhonathan Camargo</td>
+                                        <td class="none">Jhonathan Camargo</td>
                                         <td>
                                             <button id="btn-aux-'.$i.'" class="btn-base btn-pric">Cancelar</button>
                                         </td>

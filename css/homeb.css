@@ -16,3 +16,9 @@
     z-index: 0;
     flex-wrap: wrap;
 }
+
+@media(max-width:720px) {
+    .content-body{
+        margin: 10px;
+    }
+}
