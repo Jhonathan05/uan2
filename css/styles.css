@@ -22,6 +22,10 @@
     display: none;
 }
 
+*:focus{
+    outline:0;
+}
+
 a {
     text-decoration: none;
 
@@ -69,12 +73,22 @@ ul li {
 
 
 }
-
+input['disabled']::placeholder{
+    color: red;
+}
 input[type=number]::placeholder,
 input[type=text]::placeholder,
 input[type=password]::placeholder,
 input[list]::placeholder {
-    color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+
+}
+
+input[type=number],
+input[type=text],
+input[type=password],
+input[list] {
+    color: rgba(255, 255, 255, 0.63);
     text-align: center;
 
 }

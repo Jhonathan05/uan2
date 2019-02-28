@@ -76,6 +76,9 @@
     border: 1px solid darkgray;
     border-radius: 5px;
 }
+#content-login.active form input::placeholder{
+    color: rgba(0, 0, 0, 0.3);
+}
 
 .content-user {
     display: none;

@@ -41,7 +41,7 @@
         <li>
             <a href="./listams.php">
                 <div class="sidebar-elements">
-                    <i class="fas fa-exclamation-circle"></i>
+                    <i class="fas fa-clock"></i>
                     <span>Pendientes</span>
                 </div>
             </a>

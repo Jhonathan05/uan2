@@ -1,4 +1,4 @@
-for (var i = 1; i < 21; i++){
+for (var i = 1; i <= 20; i++){
     var btnAux = document.getElementById('btn-aux-'+i+'');
     
     btnAux.addEventListener('click', function(){

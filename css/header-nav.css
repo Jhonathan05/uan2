@@ -22,7 +22,7 @@
     color: #FFF;
 }
 
-.soli-out-big input[list]::placeholder {
+.soli-out-big input::placeholder {
     color: #FFF;
 }
 
@@ -97,8 +97,4 @@ input::-webkit-calendar-picker-indicator {
     font-weight: 500;
     display: flex;
     align-items: center;
-}
-
-a{
-   
 }

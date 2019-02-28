@@ -29,85 +29,113 @@
                             <th>Docente</th>
                             <th>D&iacute;a Solicitado</th>
                             <th>Horario</th>
-                            <th>Sala Solicitada</th>                            
+                            <th>Sala Solicitada</th>
                             <th>Monitor</th>
                             <th>Opci&oacute;n</th>
                         </tr>
                     </thead>
+
                     <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>Jhonathan Camargo</td>
-                            <td>Tortugu&iacute;n</td>
-                            <td>29/FEB</td>
-                            <td>14:00 - 16:00</td>
-                            <td><span class="b">B201</span></td>                            
-                            <td>Jhonathan Camargo</td>
-                            <td>
-                                <button class="btn-base btn-pric">Opciones</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Jhonathan Camargo</td>
-                            <td>Tortugu&iacute;n</td>
-                            <td>29/FEB</td>
-                            <td>14:00 - 16:00</td>
-                            <td><span class="b">B201</span></td>                            
-                            <td>Jhonathan Camargo</td>
-                            <td>
-                                <button class="btn-base btn-pric">Opciones</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Jhonathan Camargo</td>
-                            <td>Tortugu&iacute;n</td>
-                            <td>29/FEB</td>
-                            <td>14:00 - 16:00</td>
-                            <td><span class="b">B201</span></td>                            
-                            <td>Jhonathan Camargo</td>
-                            <td>
-                                <button class="btn-base btn-pric">Opciones</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Jhonathan Camargo</td>
-                            <td>Tortugu&iacute;n</td>
-                            <td>29/FEB</td>
-                            <td>14:00 - 16:00</td>
-                            <td><span class="b">B201</span></td>                            
-                            <td>Jhonathan Camargo</td>
-                            <td>
-                                <button class="btn-base btn-pric">Opciones</button>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Jhonathan Camargo</td>
-                            <td>Tortugu&iacute;n</td>
-                            <td>29/FEB</td>
-                            <td>14:00 - 16:00</td>
-                            <td><span class="b">B201</span></td>                            
-                            <td>Jhonathan Camargo</td>
-                            <td>
-                                <button class="btn-base btn-pric">Opciones</button>
-                            </td>
-                        </tr>                      
+
+                        <?php
                         
+                            for ($i = 1; $i <= 10; $i++)
+                            {
+                                echo ('
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Jhonathan Camargo</td>
+                                            <td>Tortugu&iacute;n</td>
+                                            <td>29/FEB</td>
+                                            <td>14:00 - 16:00</td>
+                                            <td><span class="b">B201</span></td>                            
+                                            <td>Jhonathan Camargo</td>
+                                            <td>
+                                                <button id="btn-aux-mcs-'.$i.'" class="btn-base btn-pric">Detalle</button>
+                                            </td>
+                                        </tr>
+                                     ');
+                            }
+                        
+                        ?>
+
                     </tbody>
 
                 </table>
-                
+
                 <div class="table-find-id">
                     <form action="">
                         <input type="text" placeholder="Digitar ID de solicitud">
                         <button type="submit">Buscar</button>
                     </form>
                 </div>
-                
+
             </div>
+
+        </div>
+
+        <div id="form-aux-mcs" class="form-aux ">
+            <div id="aux-close-mcs" class="close-ico">&#10006;</div>
+
+            <form action="">
+                <div class="form-title">Detalles de Cancelaci&oacute;n</div>
+
+                <div class="aux-body">
+                    <div class="info-solicitante">                        
+                        <div class="form-subtitle">Informaci&oacute;n</div>
+                        <div class="aux-element">
+                            <label for="">N&uacute;mero de solicitud</label>
+                            <input type="number" disabled placeholder="3280">
+                        </div>
+                        <div class="aux-element">
+                            <label for="">Documento del Solicitante</label>
+                            <input type="number" disabled placeholder="1110541614">
+                        </div>
+                        <div class="aux-element">
+                            <label for="">Nombre del Solicitante</label>
+                            <input type="text" disabled placeholder="Jhonathan">
+                        </div>
+                        <div class="aux-element">
+                            <label for="">Apellido del Solicitante</label>
+                            <input type="text" disabled placeholder="Camargo">
+                        </div>
+                    </div>
+
+                    <div class="aux-section">
+                        <div class="form-subtitle">Informaci&oacute;n del Aula</div>
+                        <div class="aux-element">
+                            <label for="">Sala a solicitar</label>
+                            <input type="text" disabled placeholder="B201">
+                        </div>
+                        <div class="aux-element">
+                            <label for="">Docente</label>
+                            <input type="text" disabled placeholder="Tortugu&iacute;n">
+                        </div>
+                        <div class="aux-element">
+                            <label for="">Fecha solicitada</label>
+                            <input type="text" disabled placeholder="25/Feb 14:00 - 16:00">
+                        </div>
+
+
+                        <div class="aux-element">
+                            <label for="">Motivo de cancelaci&oacute;n</label>
+                            <input list="l-cancel-opt" placeholder="Motivo" required>
+                            <datalist id="l-cancel-opt">
+                                <option value="Fecha erronea"></option>
+                                <option value="Evento UAN"></option>
+                                <option value="Solicitud duplicada"></option>
+                                <option value="Cancelaci&oacute;n de clase"></option>
+                                <option value="Salas no disponibles"></option>
+                                <option value="M&aacute;s de 8 d&iacute;as"></option>
+                                <option value="Solicitud menor a 1 d&iacute;a"></option>
+                            </datalist>
+                        </div>
+
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-base btn-pric" disabled>Cancelado</button>
+            </form>
 
         </div>
 
@@ -120,6 +148,7 @@
     </section>
     <script src="js/slide.js"></script>
     <script src="js/soliOut.js"></script>
+    <script src="js/formAuxmcs.js"></script>
 </body>
 
 </html>

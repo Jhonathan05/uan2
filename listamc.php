@@ -39,7 +39,7 @@
 
                         <?php  
                         
-                            for ($i = 1; $i <= 20; $i++) { //el máximo número de registos a mostrar, si se cambia en este ciclo, igual se debe de hacer en el ciclo del archivo "formaAuxmc.js" más 1. Ejemplo: ciclo listamsc.php = 20 ; ciclo formAuxmc.js = 21 
+                            for ($i = 1; $i <= 20; $i++) { //el máximo número de registos a mostrar, si se cambia en este ciclo, igual se debe de hacer en el ciclo del archivo "formaAuxmc.js".
                                 
                                 echo('
                                     <tr>
@@ -80,7 +80,11 @@
 
                     <div class="aux-body">
                         <div class="info-solicitante">
-                            <div class="form-subtitle">Informaci&oacute;n del solicitante</div>
+                            <div class="form-subtitle">Informaci&oacute;n</div>
+                            <div class="aux-element">
+                                <label for="">N&uacute;mero de solicitud</label>
+                                <input type="number" disabled placeholder="3280">
+                            </div>
                             <div class="aux-element">
                                 <label for="">Documento del Solicitante</label>
                                 <input type="number" disabled placeholder="1110541614">
