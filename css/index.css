@@ -1,0 +1,130 @@
+input[type=text],
+input[type=password],
+button{
+    cursor: pointer;
+    border-radius: 3px;
+}
+input[type=text]::placeholder,
+input[type=password]::placeholder{
+    text-align: left;
+}
+button{
+    border: none;
+    padding: 8px;
+    background-color: rgba(240, 248, 255, 0.16);
+}
+.i-base{
+    border: 0;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.02);
+}
+.container-index{    
+    width: 100%;
+    height: 100%;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-index{
+    width: 30%;
+    height: 70%;
+    /*border: 1px solid rgba(250, 250, 250, 0.06);*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-index-header{
+    text-align: center;
+    margin-bottom: 17%;
+}
+.content-index-header img{
+    width: 40%;
+    height: 100%;
+}
+.index-login{
+    width: 50%;
+}
+.index-login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.index-login form input{
+    width: 100%;
+    margin-bottom: 8px;
+}
+.problem{
+    width: 100%;
+    font-size: 10px;
+    text-align: left;
+    font-style: italic;
+}
+.index-login form button{
+    width: 80%;
+    margin-top: 25px;
+    
+}
+.login-element{
+    display: flex;
+    width: 100%;
+}
+.login-element span{
+    align-self: center;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.02);
+    margin-bottom: 8px;
+}
+.login-element span a{
+    font-size: 10px;
+}
+.divisor{
+    width: 30%;
+    margin: 60px 0;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.12);
+}
+.index-section{
+    display: flex;
+    /*background-color: red;*/
+    width: 100%;
+    justify-content: space-around;
+}
+.index-soli form{
+    display: flex;
+    flex-direction: column;
+}
+.index-soli form input{
+    margin-bottom: 15px;
+}
+
+.index-links{
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.index-links a{
+    border-radius: 3px;
+    text-align: center;
+    font-size: 13px;
+    background-color: rgba(240, 248, 255, 0.16);;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.footer-container {
+    justify-content: center;
+}
+.footer-content{
+    width: 100%;
+    margin-left: 0px;
+}
+.footer-content nav {
+    justify-content: space-evenly;
+}
+.pie{
+    text-align: center;
+}

@@ -4,13 +4,17 @@
             <ul>
                 <li class="footer-content-title">Enlaces</li>
                 <div class="elements-enlaces">
+                    <a href="homeb.php">Bloque B</a>
+                    <a href="">Bloque C</a>
                     <a href="http://www.uan.edu.co/aviso-legal">Aviso Legal</a>
-                    <a href="http://www.uan.edu.co/politica-de-proteccion-de-datos">Protecci&oacute;n de Datos</a>
                     <a href="http://www.uan.edu.co/pqrf">PQRF</a>
                     <a href="http://www.uan.edu.co/sedes">Sedes</a>
-                    <a href="http://www.uan.edu.co/preguntas-frecuentes">Preguntas Frecuentes</a>                    
-                    <a href="http://www.uan.edu.co/verificar">Verificar</a>
+                    <a href="http://www.uan.edu.co/politica-de-proteccion-de-datos">Protecci&oacute;n de Datos</a>
+                    
+                    <a href="http://www.uan.edu.co/preguntas-frecuentes">Preguntas Frecuentes</a>
+
                     <a href="http://colegiodelbosque.uan.edu.co/">Colegio</a>
+
                 </div>
             </ul>
             <ul>
