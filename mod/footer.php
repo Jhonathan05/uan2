@@ -4,16 +4,22 @@
             <ul>
                 <li class="footer-content-title">Enlaces</li>
                 <div class="elements-enlaces">
-                    <a href="homeb.php">Bloque B</a>
-                    <a href="">Bloque C</a>
-                    <a href="http://www.uan.edu.co/aviso-legal">Aviso Legal</a>
-                    <a href="http://www.uan.edu.co/pqrf">PQRF</a>
-                    <a href="http://www.uan.edu.co/sedes">Sedes</a>
-                    <a href="http://www.uan.edu.co/politica-de-proteccion-de-datos">Protecci&oacute;n de Datos</a>
-                    
-                    <a href="http://www.uan.edu.co/preguntas-frecuentes">Preguntas Frecuentes</a>
+                    <div class="normal">
+                        <a href="homeb.php">Bloque B</a>
+                        <a href="">Bloque C</a>
+                        <a href="http://www.uan.edu.co/aviso-legal">Aviso Legal</a>
+                        <a href="http://www.uan.edu.co/politica-de-proteccion-de-datos">Protecci&oacute;n de Datos</a>
+                        <a href="http://www.uan.edu.co/pqrf">PQRF</a>
+                        <a href="http://www.uan.edu.co/sedes">Sedes</a>
+                        
+                        <a href="http://www.uan.edu.co/preguntas-frecuentes">Preguntas Frecuentes</a>
+                        <a href="http://colegiodelbosque.uan.edu.co/">Colegio</a>
+                    </div>
+                    <div class="solic-index">
+                        <input type="text" class="i-base" placeholder="Documento">
+                        <button class="btn-soli-footer" onclick="alerta()">Estado de Solicitud</button>
+                    </div>
 
-                    <a href="http://colegiodelbosque.uan.edu.co/">Colegio</a>
 
                 </div>
             </ul>

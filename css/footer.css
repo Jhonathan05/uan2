@@ -81,6 +81,10 @@
     margin-left: 200px;
 }
 
+.solic-index{
+    display: none;
+}
+
 @media (max-width: 1440px) {
     .footer-content.active {
         margin-left: 0px;

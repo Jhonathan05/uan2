@@ -20,18 +20,18 @@
             <div class="index-login">
                 <form action="">
                    <div class="login-element">
-                       <input type="text" class="i-base" placeholder="Usuario">
-                       <span><a href="">Forgot?</a></span>
+                       <input type="text" class="i-base" placeholder="Usuario" required>
+                       <span><a href="#">Forgot?</a></span>
                    </div>
                    <div class="login-element">
-                       <input type="password" class="i-base" placeholder="Contraseña">
-                       <span><a href="">Forgot?</a></span>
+                       <input type="password" class="i-base" placeholder="Contraseña" required>
+                       <span><a href="#">Forgot?</a></span>
                    </div>
                    <div class="problem"> <a href="#">Problemas al iniciar sesi&oacute;n?</a></div>
                    <button type="submit">Iniciar Sesi&oacute;n</button>
                 </form>
             </div>
-            <div class="divisor"></div>
+            <!--<div class="divisor"></div>
             <div class="index-section">
                 <div class="index-soli">
                     <form action="">
@@ -39,11 +39,11 @@
                         <button type="submit" onclick="alerta()">Estado de Solicitud</button>
                     </form>
                 </div>
-               <!-- <div class="index-links">
+                <div class="index-links">
                     <a href="">Bloque B</a>
                     <a href="">Bloque C</a>
-                </div>-->
-            </div>
+                </div>
+            </div>-->
 
 
         </div>
