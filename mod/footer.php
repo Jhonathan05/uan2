@@ -6,7 +6,7 @@
                 <div class="elements-enlaces">
                     <div class="normal">
                         <a href="homeb.php">Bloque B</a>
-                        <a href="">Bloque C</a>
+                        <a href="homec.php">Bloque C</a>
                         <a href="http://www.uan.edu.co/aviso-legal">Aviso Legal</a>
                         <a href="http://www.uan.edu.co/politica-de-proteccion-de-datos">Protecci&oacute;n de Datos</a>
                         <a href="http://www.uan.edu.co/pqrf">PQRF</a>

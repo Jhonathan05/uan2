@@ -6,7 +6,8 @@
         include_once('./mod/head.php');
     ?>
     <link rel="stylesheet" href="css/homeb.css">
-    <title> Bloque B </title>
+    <link rel="stylesheet" href="css/homec.css">
+    <title> Bloque C </title>
 </head>
 
 <body>
@@ -44,7 +45,7 @@
             </div>
 
             <?php            
-                for($i = 2; $i <= 11; $i++ )
+                for($i = 2; $i <= 7; $i++ )
                     {
                         echo('
                                 <div id="card-sala'.$i.'" class="card-sala ">
