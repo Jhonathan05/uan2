@@ -73,6 +73,7 @@ tr td:first-child {
     padding: 12px;
     border-radius: 3px;
     background-color: rgba(38, 38, 38, 0.22);
+    color: #000;
 }
 
 .table-find-id button {

@@ -31,3 +31,16 @@ select {
     /*background-color: red;*/
     padding: 15px;
 }
+@media(max-width:720px) {
+    .content-body iframe {
+        width: 109%;
+    }
+    .container-body{
+        width: 91%;
+        height: 670px;
+    }
+    footer{
+        display: none;
+    }
+}
+

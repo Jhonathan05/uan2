@@ -141,6 +141,21 @@
     width: 8px;
 }
 
+@media(max-width:1366px) {
+    .card-sala{
+        min-width: 245px;
+        max-width: 245px;
+    }
+    .container-body.active .card-sala{
+         min-width: 275px;
+        max-width: 275px;
+    }
+    .card-sala.active{
+        min-width: 245px;
+        max-width: 245px;
+    }
+}
+
 @media(max-width:720px) {
     .card-sala {
         min-width: 170px;

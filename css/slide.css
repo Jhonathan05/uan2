@@ -305,6 +305,12 @@
 /*--------soli-out.active-----------*/
 /*--------slide-menu.active-----------*/
 
+@media(max-width:1366px) {
+    #slide-menu ul li i {
+        margin: 0px 0 0 -10px;
+    }
+}
+
 @media(max-width:720px) {
 
     #nav-header {
@@ -331,6 +337,7 @@
     #slide-menu ul li {
         display: none;
     }
+
     #slide-menu.active ul li {
         display: block;
     }
