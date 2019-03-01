@@ -31,7 +31,7 @@
                    <button type="submit">Iniciar Sesi&oacute;n</button>
                 </form>
             </div>
-            <!--<div class="divisor"></div>
+            <div class="divisor"></div>
             <div class="index-section">
                 <div class="index-soli">
                     <form action="">
@@ -39,12 +39,11 @@
                         <button type="submit" onclick="alerta()">Estado de Solicitud</button>
                     </form>
                 </div>
-                <div class="index-links">
+              <!--  <div class="index-links">
                     <a href="">Bloque B</a>
                     <a href="">Bloque C</a>
-                </div>
-            </div>-->
-
+                </div>-->
+            </div>
 
         </div>
         

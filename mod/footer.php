@@ -15,10 +15,10 @@
                         <a href="http://www.uan.edu.co/preguntas-frecuentes">Preguntas Frecuentes</a>
                         <a href="http://colegiodelbosque.uan.edu.co/">Colegio</a>
                     </div>
-                    <div class="solic-index">
+                    <!--<div class="solic-index">
                         <input type="text" class="i-base" placeholder="Documento">
                         <button class="btn-soli-footer" onclick="alerta()">Estado de Solicitud</button>
-                    </div>
+                    </div>-->
 
 
                 </div>
