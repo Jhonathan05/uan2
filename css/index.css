@@ -178,10 +178,14 @@ button {
     bottom: 0;
     left: 15px;
 }
+.arrow-up{
+    position: absolute;
+    bottom: -50px;
+    left: 15px;
+}
 
-.arrow i {
+.arrow i, .arrow-up {
     font-size: 40px;
-
 }
 
 #arrow-down.active {

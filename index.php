@@ -47,7 +47,7 @@
 
         </div>
         <div id="arrow-down" class="arrow active"><a href="#footer-index"><i class="fas fa-angle-down"></i></a></div>
-        <div id="arrow-up" class="arrow"><a href="#container-index"><i class="fas fa-angle-up"></i></a></div>
+        <div id="arrow-up" class="arrow-up"><a href="#container-index"><i class="fas fa-angle-up"></i></a></div>
     </div>
     <footer id="footer-index">
             <?php
