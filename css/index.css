@@ -18,7 +18,6 @@ button {
     text-align: center;
 }
 
-.btn-soli-footer {}
 
 .i-base {
     border: 0;
@@ -33,6 +32,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .content-index {
@@ -114,6 +114,10 @@ button {
     justify-content: space-around;
 }
 
+.index-soli{
+    width: 50%;
+}
+
 .index-soli form {
     display: flex;
     flex-direction: column;
@@ -121,6 +125,10 @@ button {
 
 .index-soli form input {
     margin-bottom: 15px;
+    text-align: center;
+}
+.index-soli form input::placeholder {
+    text-align: center;
 }
 
 .index-links {
@@ -164,18 +172,36 @@ button {
 .pie {
     text-align: center;
 }
-.arrow{
+
+.arrow {
     position: absolute;
     bottom: 0;
     left: 15px;
 }
-.arrow i{
+
+.arrow i {
     font-size: 40px;
 
 }
 
+#arrow-down.active {
+    display: block;
+    
+}
+#arrow-down {
+    display: none;
+}
+#arrow-up {
+    display: none;
+}
+#arrow-up.active{
+    display: block;
+}
+
 @media(max-width:768px) {
     .content-index {
+        margin-top: 50%;
         width: 100%;
+        height: 100%;
     }
 }

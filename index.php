@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <div class="container-index">
+    <div id="container-index" class="container-index">
         <div class="content-index">
 
             <div class="content-index-header">
@@ -46,9 +46,10 @@
             </div>
 
         </div>
-        
+        <div id="arrow-down" class="arrow active"><a href="#footer-index"><i class="fas fa-angle-down"></i></a></div>
+        <div id="arrow-up" class="arrow"><a href="#container-index"><i class="fas fa-angle-up"></i></a></div>
     </div>
-    <footer>
+    <footer id="footer-index">
             <?php
                 include_once('./mod/footer.php');
             ?>
@@ -59,6 +60,7 @@
         }
 
     </script>
+    <script src="js/arrowIndex.js"></script>
 
 </body>
 
