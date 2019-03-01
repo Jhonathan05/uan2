@@ -16,6 +16,9 @@
     z-index: 0;
     flex-wrap: wrap;
 }
+footer{
+    margin-top: 120px;
+}
 
 @media(max-width:720px) {
     .content-body{
