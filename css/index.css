@@ -208,12 +208,7 @@ button {
     display: block;
 }
 
-/*#footer-index{
-    display: none;
-}
-#footer-index.active{
-    display: block;
-}*/
+
 
 @media(max-width:768px) {
 
@@ -225,5 +220,20 @@ button {
 
     .index-soli {
         margin-bottom: 20px;
+    }
+
+    .elements-enlaces a, .elements-social a {
+        pointer-events: none;
+    }
+    .elements-enlaces a:first-child, .elements-enlaces a:nth-child(2){
+        pointer-events: all;
+    }
+
+    #footer-index {
+        display: none;
+    }
+
+    #footer-index.active {
+        display: block;
     }
 }

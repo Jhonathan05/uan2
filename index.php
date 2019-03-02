@@ -51,7 +51,7 @@
         
     </div>
     
-    <footer id="footer-index">
+    <footer id="footer-index" class="">
        <div id="arrow-up" class="arrow-up"><a href="#container-index"><i class="fas fa-angle-up"></i></a></div>
         <?php
                 include_once('./mod/footer.php');
@@ -64,6 +64,16 @@
 
     </script>
     <script src="js/arrowIndex.js"></script>
+    <script>
+        function chrome(){
+            var url = 'https://youtube.com';
+            
+            var newWindow = (window.open(url, "otras"));
+            if(newWindow){
+                newWindow.focus();
+            }
+        }
+    </script>
 
 </body>
 

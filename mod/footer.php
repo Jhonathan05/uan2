@@ -7,13 +7,14 @@
                     <div class="normal">
                         <a href="homeb.php">Bloque B</a>
                         <a href="homec.php">Bloque C</a>
-                        <a href="http://www.uan.edu.co/aviso-legal">Aviso Legal</a>
-                        <a href="http://www.uan.edu.co/politica-de-proteccion-de-datos">Protecci&oacute;n de Datos</a>
-                        <a href="http://www.uan.edu.co/pqrf">PQRF</a>
-                        <a href="http://www.uan.edu.co/sedes">Sedes</a>
+                        <!--<a onclick="chrome()">Prueba App</a>-->
+                        <a href="http://www.uan.edu.co/aviso-legal" target="_blank">Aviso Legal</a>
+                        <a href="http://www.uan.edu.co/politica-de-proteccion-de-datos" target="_blank">Protecci&oacute;n de Datos</a>
+                        <a href="http://www.uan.edu.co/pqrf" target="_blank">PQRF</a>
+                        <a href="http://www.uan.edu.co/sedes" target="_blank">Sedes</a>
                         
-                        <a href="http://www.uan.edu.co/preguntas-frecuentes">Preguntas Frecuentes</a>
-                        <a href="http://colegiodelbosque.uan.edu.co/">Colegio</a>
+                        <a href="http://www.uan.edu.co/preguntas-frecuentes" target="_blank">Preguntas Frecuentes</a>
+                        <a href="http://colegiodelbosque.uan.edu.co/" target="_blank">Colegio</a>
                     </div>
                     <!--<div class="solic-index">
                         <input type="text" class="i-base" placeholder="Documento">
