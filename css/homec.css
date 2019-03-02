@@ -1,3 +1,10 @@
 footer {
     margin-top: 190px;
 }
+
+@media (max-width: 720px) {
+
+    footer {
+        margin-top: 50px;
+    }
+}

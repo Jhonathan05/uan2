@@ -133,6 +133,9 @@
     .elements-social {
         justify-content: space-evenly;
     }
+    .normal {
+    text-align: center;
+}
     .elements-enlaces{
         justify-content: center;
     }

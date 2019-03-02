@@ -159,6 +159,7 @@
 @media(max-width:720px) {
     .card-sala {
         min-width: 170px;
+        max-width: 170px;
     }
     .card-title {
         font-size: 15px;
