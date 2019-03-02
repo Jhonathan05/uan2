@@ -120,8 +120,19 @@ input[list]::placeholder {
         width: 100%;
         left: 0;
     }
-    .container-body.active{
+
+    .container-body.active {
         left: 0;
         width: 100%;
+    }
+
+    .elements-enlaces a,
+    .elements-social a {
+        pointer-events: none;
+    }
+
+    .elements-enlaces a:first-child,
+    .elements-enlaces a:nth-child(2) {
+        pointer-events: all;
     }
 }
