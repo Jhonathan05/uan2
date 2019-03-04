@@ -237,3 +237,23 @@ button {
         display: block;
     }
 }
+@media(orientation: landscape) {
+    .footer-content{
+        height: 100%;
+    }
+    .footer-content nav{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+
+    }
+    .footer-content-title{
+        text-align: center;
+    }
+    .elements-enlaces, .elements-social, .elements-lorem{
+        width: 100%;
+    }
+    .elements-lorem{
+        text-align: center;
+    }
+}
