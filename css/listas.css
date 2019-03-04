@@ -1,1 +1,49 @@
-.content-body
+@media(max-height:768px) and (orientation: landscape) {
+     footer{
+        display: none;
+    }
+    .container-body, .container-body.active {
+        left: 0;
+        width: 100%;
+    }
+    
+    #nav-header{
+        height: 15%;
+        left: 0;
+        width: 100%;
+
+    }
+
+    #nav-header.active {
+        left: 9%;
+        width: 91%;
+    }
+
+    #slide-menu {
+        width: 0;
+    
+
+    }
+
+    #slide-menu.active {
+        display: block;
+        width: 9%;
+    }
+
+    #slide-menu ul li {
+       
+        display: none;
+        transition: all 500ms linear;
+        
+    }
+
+    #slide-menu.active ul li {
+        left: 0;
+        display: block;
+        margin-top: 5px;
+        font-size: 15px;
+    }
+    #slide-menu.active .sidebar-elements i, #slide-menu.active #logo-university {
+        font-size: 19px;
+    }
+}

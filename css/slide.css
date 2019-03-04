@@ -346,6 +346,42 @@
         left: 0;
         display: block;
     }
+}
+@media(max-height:768px) and (orientation: landscape) {
+    #nav-header {
+        left: 0;
+        width: 100%;
+
+    }
+
+    #nav-header.active {
+        left: 18%;
+        width: 82%;
+    }
+
+    #slide-menu {
+        width: 0;
+    
+
+    }
+
+    #slide-menu.active {
+        display: block;
+        width: 18%;
+    }
+
+    #slide-menu ul li {
+       
+        display: none;
+        transition: all 500ms linear;
+        
+    }
+
+    #slide-menu.active ul li {
+        left: 0;
+        display: block;
+    }
+}
 
 
 

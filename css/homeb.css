@@ -28,7 +28,7 @@ footer{
     }
 }
 
-@media(orientation: landscape) {
+@media(max-height:768px) and (orientation: landscape) {
     footer{
         display: none;
     }

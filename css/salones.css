@@ -47,7 +47,7 @@ select {
     }*/
 }
 
-@media(orientation: landscape) {
+@media(min-height:411px) and (orientation: landscape) {
     footer{
         display: none;
     }
