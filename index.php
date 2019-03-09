@@ -35,7 +35,7 @@
             <div class="index-section">
                 <div class="index-soli">
                     <form action="">
-                        <input type="text" class="i-base" placeholder="Digitar Documento">
+                        <input type="text" class="i-base" placeholder="Digitar Documento" required>
                         <button type="submit" onclick="alerta()">Estado de Solicitud</button>
                     </form>
                 </div>
