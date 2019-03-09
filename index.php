@@ -64,16 +64,6 @@
 
     </script>
     <script src="js/arrowIndex.js"></script>
-    <script>
-        function chrome(){
-            var url = 'https://youtube.com';
-            
-            var newWindow = (window.open(url, "otras"));
-            if(newWindow){
-                newWindow.focus();
-            }
-        }
-    </script>
 
 </body>
 

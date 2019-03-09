@@ -1,14 +1,19 @@
 @import url('listas.css');
-tr td:nth-child(2), tr td:nth-child(3), tr td:nth-child(8){
+
+tr td:nth-child(2),
+tr td:nth-child(3),
+tr td:nth-child(8) {
     color: #262626;
 }
+
 .footer-container {
     margin-top: 23.52vh;
 }
 
-.form-aux{
+.form-aux {
     display: none;
 }
+
 .form-aux.active {
     display: block;
     position: fixed;
@@ -24,13 +29,14 @@ tr td:nth-child(2), tr td:nth-child(3), tr td:nth-child(8){
     padding-left: 50px;
 }
 
-.form-aux input{
+.form-aux input {
     background-color: rgba(240, 248, 255, 0.25);
     border: none;
     padding: 15px;
     border-radius: 4px;
     color: #FFF;
 }
+
 .form-aux form {
     display: flex;
     flex-direction: column;
@@ -39,26 +45,45 @@ tr td:nth-child(2), tr td:nth-child(3), tr td:nth-child(8){
     border-radius: 3px;
     height: 100%;
 }
-.aux-body{
+
+.aux-body {
     display: flex;
     flex-direction: column;
 }
-.aux-element{
+
+.aux-element {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-bottom: 3px;
 }
-.aux-element label{
-        font-size: 13px;
+
+.aux-element label {
+    font-size: 13px;
     font-weight: 500;
     display: flex;
     align-items: center;
 }
 
+@media(max-width:720px) {
+    .form-aux.active {
+        left: 0;
+        width: -webkit-fill-available;
+        /*width: max-content;*/
+        height: 100%;
+    }
+}
 
 @media(max-height:768px) and (orientation: landscape) {
-    .content-body{
+    .content-body {
         margin: 50px 0;
+    }
+
+    .form-aux.active {
+        left: 0;
+        top: -35px;
+        height: auto;
+        width: auto;
+        position: absolute;
     }
 }

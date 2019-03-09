@@ -70,3 +70,14 @@
     }
 
 }
+
+@media(max-height:768px) and (orientation: landscape) {
+    .form-aux.active {
+        left: 0;
+        top: -35px;
+        height: auto;
+        width: auto;
+        position: absolute;
+    }
+}
+

@@ -13,10 +13,10 @@
             <input type="text" placeholder="Usuario" class="input-base" required>
             <input type="password" placeholder="Contraseña" class="input-base" required>
             <button type="submit" class="btn-base">Iniciar Sesi&oacute;n</button>
-            <div class="header-a-bloques">
+            <!--<div class="header-a-bloques">
                 <a href="./homeb.php" class="color-a">Bloque B</a>
                 <a href="#" class="color-a">Bloque C</a>
-            </div>
+            </div>-->
         </form>
     </div>
 </div>

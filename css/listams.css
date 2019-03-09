@@ -1,14 +1,18 @@
 @import url('listas.css');
-tr td:nth-child(2), tr td:nth-child(4){
+
+tr td:nth-child(2),
+tr td:nth-child(4) {
     color: #262626;
 }
+
 .footer-container {
     margin-top: 23.52vh;
 }
 
-.form-aux{
+.form-aux {
     display: none;
 }
+
 .form-aux.active {
     display: block;
     position: fixed;
@@ -24,7 +28,7 @@ tr td:nth-child(2), tr td:nth-child(4){
     padding-left: 50px;
 }
 
-.form-aux input{
+.form-aux input {
     background-color: rgba(240, 248, 255, 0.25);
     border: none;
     padding: 15px;
@@ -32,9 +36,10 @@ tr td:nth-child(2), tr td:nth-child(4){
     color: #FFF;
 }
 
-.form-aux input::placeholder{
+.form-aux input::placeholder {
     color: #FFF;
 }
+
 .form-aux form {
     display: flex;
     flex-direction: column;
@@ -43,17 +48,20 @@ tr td:nth-child(2), tr td:nth-child(4){
     border-radius: 3px;
     height: 100%;
 }
-.aux-body{
+
+.aux-body {
     display: flex;
     flex-direction: column;
 }
-.aux-element{
+
+.aux-element {
     display: flex;
     justify-content: space-between;
     width: 100%;
     margin-bottom: 3px;
 }
-.aux-element label{
+
+.aux-element label {
     font-size: 13px;
     font-weight: 500;
     display: flex;
@@ -70,10 +78,12 @@ tr td:nth-child(2), tr td:nth-child(4){
         margin-top: 25px;
         margin-left: 15px;
     }
-    th{
+
+    th {
         font-size: 13px;
     }
-    .form-aux.active{
+
+    .form-aux.active {
         left: 0;
         width: 76.5%;
         border-left: 0;
@@ -81,3 +91,12 @@ tr td:nth-child(2), tr td:nth-child(4){
 
 }
 
+@media(max-height:768px) and (orientation: landscape) {
+    .form-aux.active {
+        left: 0;
+        top: -35px;
+        height: auto;
+        width: auto;
+        position: absolute;
+    }
+}
