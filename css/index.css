@@ -77,6 +77,15 @@ button {
     font-style: italic;
 }
 
+#arrow-down a i{
+    animation-name: ani;
+    animation-duration: .5s;
+    animation-iteration-count: 10;
+    position: absolute;
+    top: -50px;
+    
+    
+}
 .index-login form button {
     width: 80%;
     margin-top: 25px;
@@ -209,7 +218,29 @@ button {
 }
 
 
-
+@keyframes ani{
+    0%{
+        top: -50px;
+    }
+    10%{
+        top: -60px;
+    }
+    20%{
+        top: -65px;
+    }
+    50%{
+        top: -70px;
+    }
+    70%{
+        top: -65px;
+    }
+    80%{
+        top: -60px;
+    }
+    100%{
+        top: -50px;
+    }
+}
 @media(max-width:768px) {
 
     .content-index {
