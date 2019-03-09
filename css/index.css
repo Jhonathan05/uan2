@@ -237,7 +237,7 @@ button {
         display: block;
     }
 }
-@media(min-height:411px) and (orientation: landscape) {
+@media(max-height:411px) and (orientation: landscape) {
     .footer-content{
         height: 100%;
     }
